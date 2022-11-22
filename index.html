@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+ 
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  
     <h1>Harshal's component library</h1>
     <p>this is a paragraph tag</p>
 
@@ -16,6 +19,7 @@
     <h1>this is the biggest heading</h1>
     <h2>this is the second biggest heading</h2>
     <p>this is a normal text. this is free flowing and will wrap at the end like a paragraph</p>
+    <p>this paragraph will have a <strong>bold</strong> text</p>
     <small>this is relatively smaller text</small>
 
     <hr>
@@ -23,17 +27,17 @@
     <h2>@container</h2>
 
     <h3>fluid container</h3>
-    <div>This is a fluid container and it will go till the end of the page</div>
+    <div class="container">This is a fluid container and it will go till the end of the page</div>
 
     <h3>center container</h3>
-    <div>This is a centered container and it will go till the specified width.</div>
+    <div class="container container-center">This is a centered container and it will go till the specified width.</div>
 
     <hr>
 
     <h2>@links</h2>
 
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <a class="link link-primary" href="/">Primary Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
 
     <hr>
 
@@ -117,8 +121,5 @@
         </ul>
     </footer>
 
-
-
-    <div style="height: 30vh;"></div>
 </body>
 </html>
